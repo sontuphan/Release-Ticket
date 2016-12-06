@@ -4,17 +4,12 @@ var hash = require('object-hash');
 module.exports = {
     test: function(req, res) {
         console.time('1');
-        for (var j = 0; j < 7; j++) {
+        for (var j = 0; j < 70; j++) {
             result = {};
 
-            for (var i = 0; i < 1000000; i++) {
+            for (var i = 0; i < 100000; i++) {
                 value = lib.get();
                 key = hash(value);
-
-                // if (result[key]) {
-                //     console.log('Fail');
-                // }
-
                 result[key] = value;
             }
             console.log(j, Object.keys(result).length);
