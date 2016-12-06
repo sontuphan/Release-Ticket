@@ -1,0 +1,15 @@
+{
+  "name": "release_ticket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "TuPS",
+  "license": "GPLv2",
+  "dependencies": {
+    "express": "^4.14.0",
+    "object-hash": "^1.1.5"
+  }
+}
