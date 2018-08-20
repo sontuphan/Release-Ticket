@@ -13,7 +13,7 @@
     "object-hash": "^1.1.5",
     "request": "^2.88.0"
   },
-  "dependencies-dev": {
+  "devDependencies": {
     "request": "^2.88.0"
   }
 }
