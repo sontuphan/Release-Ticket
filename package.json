@@ -10,8 +10,8 @@
   "license": "GPLv2",
   "dependencies": {
     "express": "^4.14.0",
-    "object-hash": "^1.1.5",
-    "request": "^2.88.0"
+    "lodash": "^4.17.10",
+    "object-hash": "^1.1.5"
   },
   "devDependencies": {
     "request": "^2.88.0"
